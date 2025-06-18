@@ -28,7 +28,7 @@ const SavedProperties = () => {
       
       if (saved.length > 0) {
         // Get full property details for each saved property
-        const propertyPromises = saved.map(s => 
+const propertyPromises = saved.map(s => 
           propertyService.getById(s.propertyId).catch(() => null)
         );
         const propertyResults = await Promise.all(propertyPromises);

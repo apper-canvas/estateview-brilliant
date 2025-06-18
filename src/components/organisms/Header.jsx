@@ -1,14 +1,16 @@
-import { useState } from 'react';
+import { useState, useContext } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import Button from '@/components/atoms/Button';
 import SearchBar from '@/components/molecules/SearchBar';
 import ApperIcon from '@/components/ApperIcon';
 import { routes } from '@/config/routes';
+import { AuthContext } from '../../App';
 
 const Header = () => {
   const navigate = useNavigate();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const { logout } = useContext(AuthContext);
 
   const visibleRoutes = Object.values(routes).filter(route => !route.hidden);
 
@@ -65,7 +67,18 @@ const Header = () => {
                 <ApperIcon name={route.icon} className="w-4 h-4" />
                 <span>{route.label}</span>
               </NavLink>
-            ))}
+))}
+            
+            {/* Logout Button */}
+            <Button
+              variant="outline"
+              size="sm"
+              icon="LogOut"
+              onClick={logout}
+              className="ml-2"
+            >
+              Logout
+            </Button>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -112,8 +125,20 @@ const Header = () => {
                 >
                   <ApperIcon name={route.icon} className="w-5 h-5" />
                   <span>{route.label}</span>
-                </NavLink>
+</NavLink>
               ))}
+              
+              {/* Mobile Logout Button */}
+              <button
+                onClick={() => {
+                  setIsMobileMenuOpen(false);
+                  logout();
+                }}
+                className="flex items-center space-x-3 px-3 py-3 rounded-md text-base font-medium transition-colors text-red-600 hover:text-red-700 hover:bg-red-50"
+              >
+                <ApperIcon name="LogOut" className="w-5 h-5" />
+                <span>Logout</span>
+              </button>
             </nav>
           </motion.div>
         )}

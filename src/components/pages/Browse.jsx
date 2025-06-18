@@ -57,7 +57,7 @@ const Browse = () => {
   const sortProperties = (props, sortType) => {
     const sorted = [...props];
     
-    switch (sortType) {
+switch (sortType) {
       case 'price-low':
         return sorted.sort((a, b) => a.price - b.price);
       case 'price-high':
