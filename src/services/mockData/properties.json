@@ -1,0 +1,152 @@
+[
+  {
+    "Id": 1,
+    "title": "Modern Downtown Penthouse",
+    "price": 1250000,
+    "address": "123 Main Street, Downtown, NY 10001",
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "squareFeet": 2400,
+    "propertyType": "Condo",
+    "images": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=800&h=500&fit=crop"
+    ],
+    "description": "Stunning penthouse with panoramic city views, featuring floor-to-ceiling windows, gourmet kitchen, and private rooftop terrace. This modern home offers luxury living in the heart of downtown.",
+    "features": [
+      "Panoramic city views",
+      "Private rooftop terrace",
+      "Floor-to-ceiling windows",
+      "Gourmet kitchen with quartz countertops",
+      "Hardwood floors throughout",
+      "In-unit washer/dryer",
+      "Building amenities: gym, pool, concierge"
+    ],
+    "latitude": 40.7589,
+    "longitude": -73.9851,
+    "yearBuilt": 2018,
+    "listingDate": "2024-01-15T10:00:00Z"
+  },
+  {
+    "Id": 2,
+    "title": "Charming Victorian Family Home",
+    "price": 875000,
+    "address": "456 Oak Avenue, Riverside, CA 92501",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFeet": 3200,
+    "propertyType": "House",
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&h=500&fit=crop"
+    ],
+    "description": "Beautiful Victorian home with original character details and modern updates. Spacious family rooms, updated kitchen, and a large backyard perfect for entertaining.",
+    "features": [
+      "Original Victorian details",
+      "Updated gourmet kitchen",
+      "Spacious family room with fireplace",
+      "Large backyard with mature trees",
+      "Master suite with walk-in closet",
+      "Two-car garage",
+      "Close to top-rated schools"
+    ],
+    "latitude": 33.9806,
+    "longitude": -117.3755,
+    "yearBuilt": 1925,
+    "listingDate": "2024-01-12T14:30:00Z"
+  },
+  {
+    "Id": 3,
+    "title": "Luxury Waterfront Condo",
+    "price": 1850000,
+    "address": "789 Harbor Drive, Miami Beach, FL 33139",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFeet": 1800,
+    "propertyType": "Condo",
+    "images": [
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=800&h=500&fit=crop"
+    ],
+    "description": "Exquisite waterfront condominium with breathtaking ocean views and luxury amenities. Features marble finishes, premium appliances, and access to private beach.",
+    "features": [
+      "Direct ocean views",
+      "Private beach access",
+      "Marble finishes throughout",
+      "Premium appliances",
+      "Floor-to-ceiling windows",
+      "Private balcony",
+      "Resort-style amenities: spa, pool, valet"
+    ],
+    "latitude": 25.7907,
+    "longitude": -80.1300,
+    "yearBuilt": 2020,
+    "listingDate": "2024-01-10T09:15:00Z"
+  },
+  {
+    "Id": 4,
+    "title": "Cozy Suburban Starter Home",
+    "price": 425000,
+    "address": "321 Maple Street, Suburbia, TX 75001",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFeet": 1600,
+    "propertyType": "House",
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&h=500&fit=crop"
+    ],
+    "description": "Perfect starter home in a quiet suburban neighborhood. Recently updated with new flooring, fresh paint, and modern fixtures. Great schools and family-friendly community.",
+    "features": [
+      "Recently updated interior",
+      "New flooring throughout",
+      "Modern kitchen appliances",
+      "Fenced backyard",
+      "Attached garage",
+      "Quiet neighborhood",
+      "Excellent school district"
+    ],
+    "latitude": 32.9483,
+    "longitude": -96.7299,
+    "yearBuilt": 2005,
+    "listingDate": "2024-01-08T11:45:00Z"
+  },
+  {
+    "Id": 5,
+    "title": "Contemporary Mountain Retreat",
+    "price": 950000,
+    "address": "654 Pine Ridge Road, Aspen, CO 81611",
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "squareFeet": 2800,
+    "propertyType": "House",
+    "images": [
+      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=500&fit=crop"
+    ],
+    "description": "Stunning contemporary home nestled in the mountains with panoramic views and luxury finishes. Perfect for year-round living or as a vacation retreat.",
+    "features": [
+      "Panoramic mountain views",
+      "Contemporary architecture",
+      "Vaulted ceilings",
+      "Stone fireplace",
+      "Gourmet kitchen with island",
+      "Deck with mountain views",
+      "Close to skiing and hiking"
+    ],
+    "latitude": 39.1911,
+    "longitude": -106.8175,
+    "yearBuilt": 2015,
+    "listingDate": "2024-01-05T16:20:00Z"
+  }
+]
